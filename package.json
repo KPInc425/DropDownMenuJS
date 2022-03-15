@@ -1,0 +1,35 @@
+{
+  "name": "drop-down-menu",
+  "version": "0.0.1",
+  "description": "Learning: The Odin Project Project: DropDownMenu",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open",
+    "server": "node server.js",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KPInc425/"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KPInc425/#/issues"
+  },
+  "homepage": "https://github.com/KPInc425/",
+  "author": "KP",
+  "devDependencies": {
+    "css-loader": "^6.3.0",
+    "express": "^4.17.1",
+    "html-webpack-plugin": "^5.3.2",
+    "prettier": "2.5.1",
+    "style-loader": "^3.3.0",
+    "webpack": "^5.54.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-middleware": "^5.2.1",
+    "webpack-dev-server": "^4.7.4"
+  }
+}
